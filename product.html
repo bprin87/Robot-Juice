@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robot Juice | Products</title>
+  <link rel="stylesheet" href="./grid.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Damion&family=Iceberg&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <!-- Mobile Navigation  -->
+    <nav class="mobile-nav">
+      <div class="collapse-menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+        </svg>
+      </div>
+      <div class="mobile-logo">
+        <h2><span class="robot-red">Robot</span> Juice</h2>
+        <h6>fictitious cycle lubricants</h6>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./product.html">Products</a></li>
+        <li><a href="#">Protect</a></li>
+        <li><a href="#">Stocklist's</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Reviews</a></li>
+      </ul>
+    </nav>
+
+    <!-- Desktop Logo -->
+    <div class="desktop-logo">
+      <h2><span class="robot-red">Robot</span> Juice</h2>
+      <h6>fictitious cycle lubricants</h6>
+    </div>
+
+    <!-- Desktop Navigation -->
+    <nav class="desktop-nav">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <div class="nav-border"></div>
+        <li><a class="active" href="./product.html">Products</a></li>
+        <div class="nav-border"></div>
+        <li><a href="#">Protect</a></li>
+        <div class="nav-border"></div>
+        <li><a href="#">Stocklist's</a></li>
+        <div class="nav-border"></div>
+        <li><a href="#">Events</a></li>
+        <div class="nav-border"></div>
+        <li><a href="#">Reviews</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Purchase Section -->
+    <section id="purchase">
+      <section class="thumbnails">
+        <img src="./images/prod-thumb1.jpg" alt="robot juice bike oil" />
+        <img src="./images/prod-thumb2.jpg" alt="bike chain" />
+        <img src="./images/prod-thumb3.jpg" alt="oil puddle" />
+      </section>
+      <section class="main-image">
+        <img src="./images/robotjuicebikeoil.jpg" alt="" />
+      </section>
+      <section class="select-product">
+        <h3>Bike Oil</h3>
+        <h4>£99.99</h4>
+        <select name="size" id="size">
+          <option value="null">Size</option>
+          <option value="S">Small</option>
+          <option value="M">Medium</option>
+          <option value="L">Large</option>
+        </select>
+        <select name="qty" id="qty">
+          <option value="0">Qty</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+        <button class="btn-buy">BUY NOW</button>
+        <div class="nearest-stocklist">
+          <p>FIND NEAREST STOCKLIST</p>
+          <p>
+            SHARE
+            <a href="#"><img src="./images/facebook.jpg" alt="facebook logo" /></a>
+            <a href="#"><img src="./images/twitter.jpg" alt="twitter logo" /></a>
+            <a href="mailto:info@robotjuice.com"><img src="./images/email.jpg" alt="email logo" /></a>
+          </p>
+          <p>
+            Robot Juice bike oil for bicicles stops rust and other corrosion
+            from starting. Applied to already corroding metals it breaks down
+            the corrosion and starts preventing it from building up and
+            protects from the point of contact.
+          </p>
+        </div>
+      </section>
+    </section>
+
+    <!-- Similar Products -->
+    <section id="similar-products">
+      <h2>Similar Products</h2>
+      <section class="gallery">
+        <a href="#"><img src="./images/simprod.jpg" alt="similar product" /></a>
+        <a href="#"><img src="./images/simprod.jpg" alt="similar product" /></a>
+        <a href="#"><img src="./images/simprod.jpg" alt="similar product" /></a>
+        <a href="#"><img src="./images/simprod.jpg" alt="similar product" /></a>
+        <a href="#"><img src="./images/simprod.jpg" alt="similar product" /></a>
+        <a href="#"><img src="./images/simprod.jpg" alt="similar product" /></a>
+      </section>
+    </section>
+
+    <!-- Product Reviews -->
+    <section id="product-reviews">
+      <h2>Product Reviews<span class="red-stars"> *****</span></h2>
+      <article class="article-rating">
+        <img src="./images/reviewicon1.jpg" alt="robot icon" />
+        <div class="rating">
+          <span class="red-stars">*****</span>
+          <h4>Great Greace!!</h4>
+        </div>
+        <div class="article-review">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            nam, qui est quos veritatis illum aut? Maxime architecto illo
+            perspiciatis voluptatem cumque officia, vel aut id sint
+            repellendus ipsa. Harum. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Labore maxime, pariatur nostrum iure facere
+            repellat esse ipsum sit consequuntur, delectus doloremque vero
+            molestiae odio enim assumenda voluptatibus recusandae. Molestias,
+            est!
+          </p>
+        </div>
+      </article>
+      <article class="article-rating">
+        <img class="br" src="./images/reviewicon1.jpg" alt="robot icon" />
+        <div class="rating">
+          <span class="red-stars">***</span><span class="stars">**</span>
+          <h4>Great Greace!!</h4>
+        </div>
+        <div class="article-review">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            nam, qui est quos veritatis illum aut? Maxime architecto illo
+            perspiciatis voluptatem cumque officia, vel aut id sint
+            repellendus ipsa. Harum. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Labore maxime, pariatur nostrum iure facere
+            repellat esse ipsum sit consequuntur, delectus doloremque vero
+            molestiae odio enim assumenda voluptatibus recusandae. Molestias,
+            est!
+          </p>
+        </div>
+      </article>
+      <article class="article-rating">
+        <img class="br" src="./images/reviewicon1.jpg" alt="robot icon" />
+        <div class="rating">
+          <span class="red-stars">****</span><span class="stars">*</span>
+          <h4>Great Greace!!</h4>
+        </div>
+        <div class="article-review">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            nam, qui est quos veritatis illum aut? Maxime architecto illo
+            perspiciatis voluptatem cumque officia, vel aut id sint
+            repellendus ipsa. Harum. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Labore maxime, pariatur nostrum iure facere
+            repellat esse ipsum sit consequuntur, delectus doloremque vero
+            molestiae odio enim assumenda voluptatibus recusandae. Molestias,
+            est!
+          </p>
+        </div>
+      </article>
+      <article class="article-rating">
+        <img src="./images/reviewicon2.jpg" alt="robot icon" />
+        <div class="rating">
+          <span class="red-stars">*****</span>
+          <h4>This juice just keeps me going..</h4>
+        </div>
+        <div class="article-review">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            nam, qui est quos veritatis illum aut? Maxime architecto illo
+            perspiciatis voluptatem cumque officia, vel aut id sint
+            repellendus ipsa. Harum. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Labore maxime, pariatur nostrum iure facere
+            repellat esse ipsum sit consequuntur, delectus doloremque vero
+            molestiae odio enim assumenda voluptatibus recusandae. Molestias,
+            est!
+          </p>
+        </div>
+      </article>
+      <article class="article-rating">
+        <img class="br" src="./images/reviewicon1.jpg" alt="robot icon" />
+        <div class="rating">
+          <span class="red-stars">*****</span>
+          <h4>Great Greace!!</h4>
+        </div>
+        <div class="article-review">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            nam, qui est quos veritatis illum aut? Maxime architecto illo
+            perspiciatis voluptatem cumque officia, vel aut id sint
+            repellendus ipsa. Harum. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Labore maxime, pariatur nostrum iure facere
+            repellat esse ipsum sit consequuntur, delectus doloremque vero
+            molestiae odio enim assumenda voluptatibus recusandae. Molestias,
+            est!
+          </p>
+        </div>
+      </article>
+
+      <!-- Extra Reviews -->
+      <article class="extra" data-product-id="bikeoil"></article>
+
+      <div class="read-all">
+        <button class="btn-reviews">READ ALL REVIEWS</button>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- Footer split into two sections -->
+  <footer>
+    <section id="top-footer">
+      <section class="top-footer-content">
+        <img src="./images/cyclemagazine.jpg" alt="cycling magazine cover" />
+        <article class="latest-reviews">
+          <h3>Latest Reviews</h3>
+          <p>
+            Cycling magazine has given Robot Juice a 5 star rating in its
+            latest reviews of dry lubricants. Robot Juice Dry lube was rated
+            the highest out of over 40 top brand dry lubes.
+          </p>
+        </article>
+        <section class="links">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a href="https://www.edgehill.ac.uk/">Edge Hill University</a>
+            </li>
+            <li><a href="#">Dave Walsh</a></li>
+            <li><a href="#">https://www.twitter.com/walsh_d</a></li>
+            <li>
+              <a href="#">CIS1110 - Web Design and Development module</a>
+            </li>
+          </ul>
+        </section>
+      </section>
+    </section>
+    <section id="bottom-footer">
+      <section class="bottom-footer-content">
+        <p class="top-left">
+          Robot Juice Fictitious Prducts Not Ltd., Unit 9&frac34;, Privet
+          Drive, Little Whingeing, Surrey DN18 5RP
+        </p>
+        <p class="top-right">
+          <a href="#">Contact Us</a> | <a href="#">Privacy</a> |
+          <a href="#">Terms & Conditions</a> | <a href="#">Accessibility</a>
+        </p>
+        <p class="bottom-left">
+          Telephone <a href="+441695657648">+44 (0)1695 657648.</a><a href="mailto:walshd@edgehill.ac.uk">
+            Email: walshd@edgehill.ac.uk</a>
+        </p>
+        <p class="bottom-right">
+          Copyright &copy; 2018 Dave Walsh. Design by Dave Walsh
+        </p>
+      </section>
+    </section>
+  </footer>
+</body>
+
+<!-- Dropdown Menu Script -->
+<script src="./nav.js"></script>
+<script src="./jquery.min.js"></script>
+<script src="./reviews.js"></script>
+
+
+
+</html>
